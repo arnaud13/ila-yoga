@@ -1,0 +1,15 @@
+<p>Bonjour<p>
+
+<p>Le client {{firstname}} {{lastname}} {{email}} vous a laissé une demande de reservation sur le site </p>
+
+<p>La raison de sa venue est {{cause|join(' ')}}.</p>
+
+{% if subscribe == "yes" %}
+<p>Le client souhaite souscrire au programme de fidélité</p>
+{% else %}
+<p>Le client ne souhaite pas souscrire au programme fidélité</p>
+{% endif %}
+
+<p>Le client a connu Ila Yoga par le biais suivant : {{reputation}}</p>
+
+<p>Bonne journée !</p>
