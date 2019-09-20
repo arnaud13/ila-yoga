@@ -1,2 +1,0 @@
-# ila-yoga
-projet symfony
